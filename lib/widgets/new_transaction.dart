@@ -92,7 +92,7 @@ class _NewTransactionState extends State<NewTransaction> {
                             : 'Picked Date: ${DateFormat.yMd().format(_selectedDate)}',
                       ),
                     ),
-                    FlatButton(
+                    TextButton(
                       onPressed: _datePicker,
                       child: Text(
                         'Choose Date',
